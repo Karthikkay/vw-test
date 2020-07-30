@@ -7,8 +7,8 @@
            bigip_virtual_server:
              state: present
              partition: Common
-             name: test_kk87
-             destination: 12.3.4.6
+             name: test_kk812
+             destination: 12.3.4.7
              port: 80
              provider:
                server: 192.168.112.78
@@ -16,4 +16,4 @@
                password: appviewx@123
                validate_certs: no
            delegate_to: localhost
-    
+ 
