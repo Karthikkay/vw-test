@@ -7,8 +7,8 @@
            bigip_virtual_server:
              state: present
              partition: Common
-             name: test_k76_5
-             destination: 12.3.4.65
+             name: test_k76_51
+             destination: 12.31.4.65
              port: 80
              provider:
                server: 192.168.112.78
