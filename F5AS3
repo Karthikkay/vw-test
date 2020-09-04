@@ -6,18 +6,18 @@
     "patchBody": [
         {
             "op": "add",
-            "path": "/Prod/new_vip_lab",
+            "path": "/Prod/cbe_new_vip_lab",
             "value": {
                 "class": "Application",
                 "template": "generic",
-                "new_vip_lab": {
+                "cbe_new_vip_lab": {
                     "class": "Service_HTTP",
                     "snat": "auto",
                     "virtualAddresses": [
-                        "192.168.34.11"
+                        "192.168.34.19"
                     ],
                     "virtualPort": 80,
-                    "pool": "new_vip_prod"
+                    "pool": "cbe_new_vip_prod"
                 },
                 "new_vip_prod": {
                     "class": "Pool",
