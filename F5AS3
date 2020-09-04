@@ -19,7 +19,7 @@
                     "virtualPort": 80,
                     "pool": "new_pool_lab12"
                 },
-                "new_pool_lab11": {
+                "new_pool_lab12": {
                     "class": "Pool",
                     "monitors": [
                         "http"
