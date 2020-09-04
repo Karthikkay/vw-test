@@ -6,11 +6,11 @@
     "patchBody": [
         {
             "op": "add",
-            "path": "/Prod/cbe_new_vip_lab",
+            "path": "/Prod/new_vip_lab",
             "value": {
                 "class": "Application",
                 "template": "generic",
-                "cbe_new_vip_lab": {
+                "new_vip_lab": {
                     "class": "Service_HTTP",
                     "snat": "auto",
                     "virtualAddresses": [
