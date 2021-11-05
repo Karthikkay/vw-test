@@ -6,20 +6,20 @@
     "patchBody": [
         {
             "op": "add",
-            "path": "/demo_wells/new_vip_lab12",
+            "path": "/demo_wells/new_vip_lab16",
             "value": {
                 "class": "Application",
                 "template": "generic",
-                "new_vip_lab12": {
+                "new_vip_lab16": {
                     "class": "Service_HTTP",
                     "snat": "auto",
                     "virtualAddresses": [
-                        "192.168.34.199"
+                        "192.168.39.443"
                     ],
                     "virtualPort": 80,
-                    "pool": "new_pool_lab12"
+                    "pool": "new_pool_lab16"
                 },
-                "new_pool_lab12": {
+                "new_pool_lab16": {
                     "class": "Pool",
                     "monitors": [
                         "http"
@@ -28,7 +28,7 @@
                         {
                             "servicePort": 5004,
                             "serverAddresses": [
-                                "192.168.95.184"
+                                "192.168.93.184"
                             ]
                         },
                         {
