@@ -6,7 +6,7 @@
     "patchBody": [
         {
             "op": "add",
-            "path": "/demo_wells/new_vip_lab16",
+            "path": "/Demo/new_vip_lab16",
             "value": {
                 "class": "Application",
                 "template": "generic",
